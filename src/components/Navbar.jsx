@@ -28,7 +28,7 @@ export default function Navbar({ copy, onToggleLanguage }) {
     <header className="absolute inset-x-0 top-0 z-40 px-4 py-5 sm:px-6">
       <nav
         className="glass mx-auto flex h-16 max-w-6xl items-center justify-between rounded-full px-4 sm:px-6"
-        aria-label={copy.nav.approach}
+        aria-label={copy.nav.primaryLabel}
       >
         <a
           href="#top"

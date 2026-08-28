@@ -22,6 +22,7 @@ export const content = {
     skip: 'انتقل إلى المحتوى',
     brand: 'أُفُق',
     nav: {
+      primaryLabel: 'التنقل الرئيسي',
       approach: 'المنهج',
       work: 'السرد البصري',
       services: 'نطاق العمل',
@@ -161,6 +162,7 @@ export const content = {
     skip: 'Skip to content',
     brand: 'AFOQ',
     nav: {
+      primaryLabel: 'Primary navigation',
       approach: 'Approach',
       work: 'Visual story',
       services: 'Scope',
