@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://afoq-landing-page-alpha.vercel.app/sitemap.xml
