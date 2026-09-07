@@ -1,42 +1,49 @@
-# AFOQ
+# AFOQ — Arabic-First Digital Studio Concept
 
-AFOQ is an Arabic-first, bilingual frontend concept for a digital strategy and experience studio. It demonstrates an honest product narrative, responsive visual system, accessible navigation, lazy-loaded motion, and a browser-only project brief planner.
+A bilingual digital-strategy and experience-studio interface designed around Arabic-first UX, honest product boundaries, and performance-conscious motion.
 
-This repository does **not** represent an operational agency platform. It contains no accounts, payments, client records, testimonials, lead submission, or backend services. The video footage is visual demo material and is labeled accordingly.
+**Live demo:** [afoq-landing-page.vercel.app](https://afoq-landing-page.vercel.app/)
 
-## What works
+## Overview
 
-- Arabic and English content with synchronized RTL/LTR direction
-- Persisted language preference in local browser storage
-- Responsive sections and accessible in-page navigation
-- Lazy-loaded, compressed H.264 video with WebP posters
-- Browser-only brief planner with no personal data collection
-- Reduced-motion support and semantic content structure
+AFOQ demonstrates how a modern marketing experience can support Arabic and English audiences without compromising directionality, accessibility, or load performance. The project includes a browser-only brief planner and clearly labels its demo content.
 
-## Technology
+## Tech Stack
 
-- React 19
+- React 19 and JavaScript
 - Vite 8
 - Tailwind CSS 3
 - ESLint 10
+- Optimized H.264 video and WebP media
 
-## Local development
+## Key Features
+
+- Synchronized Arabic/English content with RTL/LTR switching
+- Persisted language preference in local browser storage
+- Responsive, semantic navigation and sections
+- Lazy-loaded video with optimized poster assets
+- Local-only project brief planner with no personal-data collection
+- Reduced-motion support, sitemap, and robots metadata
+
+## Setup
 
 ```bash
-npm install
+git clone https://github.com/azizkza99/afoq-landing-page.git
+cd afoq-landing-page
+npm ci
 npm run dev
 ```
 
-Run all quality checks:
+## Quality Checks
 
 ```bash
 npm run check
 npm audit
 ```
 
-## Product boundary
+## Scope
 
-A commercial launch still requires an approved service offer, real contact channel, legal pages, project evidence, analytics with consent, and a secure backend for any submitted data.
+This is a portfolio concept, not an operational agency platform. A commercial release would require verified case studies, legal pages, analytics consent, a secure backend, and an approved contact workflow.
 
 ## License
 
