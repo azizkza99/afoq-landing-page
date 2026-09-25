@@ -25,6 +25,13 @@ AFOQ demonstrates how a modern marketing experience can support Arabic and Engli
 - Local-only project brief planner with no personal-data collection
 - Reduced-motion support, sitemap, and robots metadata
 
+## Project Structure
+
+- `src/App.jsx` composes the page and switches the document language and direction.
+- `src/content.js` keeps Arabic and English copy together for review.
+- `src/components/BriefPlanner.jsx` computes a brief in the browser; it does not transmit responses.
+- `src/components/OptimizedVideo.jsx` controls poster-backed media playback, with media in `public/`.
+
 ## Setup
 
 ```bash
